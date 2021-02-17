@@ -1,0 +1,208 @@
+/* Настройка */
+body {
+  font-family: Signika;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.fr {
+  /*Расположение */
+  position: absolute;
+  width: 211px;
+  height: 26px;
+  left: 115px;
+  top: 35px;
+  color: #ffffff;
+}
+
+.fr1 {
+  /*Расположение1 */
+  position: absolute;
+  width: 211px;
+  height: 26px;
+  left: 570px;
+  top: 15px;
+  font-size: 10px;
+  color: white;
+}
+
+.fr2 {
+  /*Расположение2 */
+  position: absolute;
+  width: 211px;
+  height: 26px;
+  left: 825px;
+  top: 15px;
+  font-size: 10px;
+  color: white;
+}
+
+.fr3 {
+  /*Расположение3 */
+  position: absolute;
+  width: 211px;
+  height: 26px;
+  left: 1010px;
+  top: 15px;
+  font-size: 10px;
+  color: white;
+}
+
+.fr4 {
+  /*Расположение4 */
+  position: absolute;
+  width: 211px;
+  height: 26px;
+  left: 1250px;
+  top: 15px;
+  font-size: 10px;
+  color: white;
+}
+
+.fr5 {
+  /*Расположение4 */
+  position: absolute;
+  height: 26px;
+  left: 815px;
+  top: 490px;
+  font-size: 30px;
+  color: white;
+}
+
+.fortimage {
+  position: absolute;
+  width: 127px;
+  height: 132px;
+  left: -5px;
+  top: 15px;
+}
+
+.fon {
+  position: absolute;
+  width: 1900px;
+  height: 1200px;
+  left: 0px;
+  top: -2px;
+  background: url(../img/background1.png) no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(1px), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.block {
+    position: absolute;
+    background: rgba(255,255,255,1);
+    left: 0px;
+    top: 950px;
+    width: 1900px;
+    height: 15px;
+  }
+
+.fon2 {
+ position: absolute;
+background: url(../img/background2.png) no-repeat center center fixed;
+  background-size: cover;
+  width: 1900px;
+  height: 1200px;
+  left: 0px;
+  top: 950px;
+}
+
+.armapng {
+  position: absolute;
+  width: 340px;
+  height: 202px;
+  left: 195px;
+  top: 650px;
+  border-radius: 40px;
+}
+
+.arma3 {
+  position: absolute;
+  text-align: center;
+  left: 22px;
+  top: -5px;
+}
+
+.controlpng {
+  position: absolute;
+  width: 340px;
+  height: 202px;
+  left: 595px;
+  top: 650px;
+  border-radius: 40px;
+}
+
+.control {
+  position: absolute;
+  text-align: center;
+  left: 20px;
+  top: -5px;
+  color: black;
+}
+
+.cyberpng {
+  position: absolute;
+  width: 340px;
+  height: 202px;
+  left: 995px;
+  top: 650px;
+  border-radius: 40px;
+}
+
+.cyber {
+  position: absolute;
+  text-align: center;
+  left: 20px;
+  top: -5px;
+}
+
+.twthpng {
+  position: absolute;
+  width: 340px;
+  height: 202px;
+  left: 1395px;
+  top: 650px;
+  border-radius: 40px;
+}
+
+.twth {
+  position: absolute;
+  text-align: center;
+  left: 20px;
+  top: -20px;
+  color: black;
+}
+
+/*ПОИСК */
+
+ {
+  box-sizing: border-box;
+}
+form {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 40px;
+  top: 50px;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #ffffff;
+}
+input {
+  width: 70%;
+  height: 40px;
+  padding-left: 10px;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
